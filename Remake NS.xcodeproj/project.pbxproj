@@ -12,6 +12,17 @@
 		18AAC04D2255362E00F4008A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AAC04B2255362E00F4008A /* Main.storyboard */; };
 		18AAC04F2255363500F4008A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AAC04E2255363500F4008A /* Assets.xcassets */; };
 		18AAC0522255363500F4008A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AAC0502255363500F4008A /* LaunchScreen.storyboard */; };
+		18AAC05A225536BE00F4008A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AAC059225536BE00F4008A /* Constants.swift */; };
+		18AAC05C225537EE00F4008A /* RegularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AAC05B225537EE00F4008A /* RegularButton.swift */; };
+		18AAC05F2255397600F4008A /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AAC05E2255397600F4008A /* CanvasView.swift */; };
+		18AAC06122553DA700F4008A /* DarkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AAC06022553DA700F4008A /* DarkLayer.swift */; };
+		18AAC063225692FC00F4008A /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AAC062225692FC00F4008A /* DatePicker.swift */; };
+		18AAC0652256944600F4008A /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AAC0642256944600F4008A /* SegmentedControl.swift */; };
+		18AAC06822569AC600F4008A /* DoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AAC06722569AC600F4008A /* DoneButton.swift */; };
+		18AAC06A22569EB300F4008A /* DoneButtonLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AAC06922569EB300F4008A /* DoneButtonLabel.swift */; };
+		18AAC06C2256A24400F4008A /* DepartureArrivalLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AAC06B2256A24400F4008A /* DepartureArrivalLabel.swift */; };
+		18AAC06E2256A27700F4008A /* DateLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AAC06D2256A27700F4008A /* DateLabel.swift */; };
+		18AAC0702256A4CD00F4008A /* DateStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AAC06F2256A4CD00F4008A /* DateStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,17 @@
 		18AAC04E2255363500F4008A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18AAC0512255363500F4008A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18AAC0532255363500F4008A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AAC059225536BE00F4008A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		18AAC05B225537EE00F4008A /* RegularButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularButton.swift; sourceTree = "<group>"; };
+		18AAC05E2255397600F4008A /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		18AAC06022553DA700F4008A /* DarkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkLayer.swift; sourceTree = "<group>"; };
+		18AAC062225692FC00F4008A /* DatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
+		18AAC0642256944600F4008A /* SegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
+		18AAC06722569AC600F4008A /* DoneButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneButton.swift; sourceTree = "<group>"; };
+		18AAC06922569EB300F4008A /* DoneButtonLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneButtonLabel.swift; sourceTree = "<group>"; };
+		18AAC06B2256A24400F4008A /* DepartureArrivalLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartureArrivalLabel.swift; sourceTree = "<group>"; };
+		18AAC06D2256A27700F4008A /* DateLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateLabel.swift; sourceTree = "<group>"; };
+		18AAC06F2256A4CD00F4008A /* DateStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +76,41 @@
 		18AAC0462255362E00F4008A /* Remake NS */ = {
 			isa = PBXGroup;
 			children = (
+				18AAC05D2255383200F4008A /* View */,
 				18AAC0472255362E00F4008A /* AppDelegate.swift */,
 				18AAC0492255362E00F4008A /* ViewController.swift */,
 				18AAC04B2255362E00F4008A /* Main.storyboard */,
 				18AAC04E2255363500F4008A /* Assets.xcassets */,
 				18AAC0502255363500F4008A /* LaunchScreen.storyboard */,
 				18AAC0532255363500F4008A /* Info.plist */,
+				18AAC059225536BE00F4008A /* Constants.swift */,
 			);
 			path = "Remake NS";
+			sourceTree = "<group>";
+		};
+		18AAC05D2255383200F4008A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18AAC06622569AA500F4008A /* CanvasElements */,
+				18AAC05B225537EE00F4008A /* RegularButton.swift */,
+				18AAC06F2256A4CD00F4008A /* DateStackView.swift */,
+				18AAC06B2256A24400F4008A /* DepartureArrivalLabel.swift */,
+				18AAC06D2256A27700F4008A /* DateLabel.swift */,
+				18AAC06022553DA700F4008A /* DarkLayer.swift */,
+				18AAC05E2255397600F4008A /* CanvasView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18AAC06622569AA500F4008A /* CanvasElements */ = {
+			isa = PBXGroup;
+			children = (
+				18AAC062225692FC00F4008A /* DatePicker.swift */,
+				18AAC0642256944600F4008A /* SegmentedControl.swift */,
+				18AAC06722569AC600F4008A /* DoneButton.swift */,
+				18AAC06922569EB300F4008A /* DoneButtonLabel.swift */,
+			);
+			path = CanvasElements;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +184,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18AAC06E2256A27700F4008A /* DateLabel.swift in Sources */,
+				18AAC05C225537EE00F4008A /* RegularButton.swift in Sources */,
+				18AAC063225692FC00F4008A /* DatePicker.swift in Sources */,
+				18AAC06822569AC600F4008A /* DoneButton.swift in Sources */,
+				18AAC06122553DA700F4008A /* DarkLayer.swift in Sources */,
 				18AAC04A2255362E00F4008A /* ViewController.swift in Sources */,
+				18AAC0702256A4CD00F4008A /* DateStackView.swift in Sources */,
+				18AAC05F2255397600F4008A /* CanvasView.swift in Sources */,
+				18AAC06A22569EB300F4008A /* DoneButtonLabel.swift in Sources */,
 				18AAC0482255362E00F4008A /* AppDelegate.swift in Sources */,
+				18AAC0652256944600F4008A /* SegmentedControl.swift in Sources */,
+				18AAC05A225536BE00F4008A /* Constants.swift in Sources */,
+				18AAC06C2256A24400F4008A /* DepartureArrivalLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
